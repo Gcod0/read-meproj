@@ -59,15 +59,32 @@ const questions = [
         message: 'What links will be used for the Table of Contents?',
         name: 'table of contents',
         },
+        {
+        type: 'input',
+        messaage: 'What tests will be used for this project?',
+        name: 'tests',
+        },
+        {
+        type: 'input',
+        message: 'WHat are the contributors for this project?',
+        name: 'contributors',
+        },
 
 
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then((inquirerResponses) => {
+        console.log('Generating README...');
+        writeToFile('README.md', generateMarkdown({...inquirerResponses}));
+    })
+}
 
 // Function call to initialize app
 init();
