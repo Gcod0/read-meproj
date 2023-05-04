@@ -41,6 +41,11 @@ const questions = [
         },
         {
         type: 'input',
+        message: 'What languages or technology will be used for this project?',
+        name: 'usage',
+        },
+        {
+        type: 'input',
         message: 'What is the GitHub user name?',
         name: 'username',
         },
@@ -51,7 +56,7 @@ const questions = [
         },
         {
         type: 'input',
-        message: 'What links will be used from the Table of Contents?',
+        message: 'What links will be used for the Table of Contents?',
         name: 'table of contents',
         },
 
