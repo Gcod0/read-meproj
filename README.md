@@ -1,4 +1,4 @@
-# Read-Me Generator
+# SVG logo maker
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
   ## Table of Contents
   * [Description](#description)
@@ -11,21 +11,20 @@
 * [License](#license)
 
 ## Description
-This Read-Me Generator creates a great outliine for a professional look and was created using Node and JavaScript.  
+A logo making application that is invoked throught the command line
 ## Installation
 undefined
 ## Usage
-JavaScript, Node, JSON
+node.js
 ## Contact
 * GitHub: gcod0
-* Email: readme@gmail.com
+* Email: gcod0@github.com
 * name: undefined
 ## License
 ## License
       This project is licensed under the MIT license.
 ## Contributors
-n/a
-
+(https://drive.google.com/file/d/1FhbNTruNhhZ5c2-prwKBIJSIQ6IJPZ3W/viewLinks to an external site.)
 
   
 
